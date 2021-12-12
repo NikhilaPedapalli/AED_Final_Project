@@ -87,6 +87,10 @@ public class PetStoreManageEmployeeJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         deleteBtn = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(153, 153, 153));
+
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+
         jLabel2.setText("Name");
 
         organizationEmpJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));

@@ -73,6 +73,10 @@ public class PetStoreManageOrganizationPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         deleteBtn = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(153, 153, 153));
+
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
+
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},

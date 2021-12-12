@@ -82,6 +82,8 @@ import javax.swing.table.DefaultTableModel;
         CreateAccoutForEmp = new javax.swing.JButton();
         deleteBtn = new javax.swing.JButton();
 
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
+
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},

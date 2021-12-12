@@ -83,6 +83,10 @@ public class PetHospitalManageEmployeeJPanel extends javax.swing.JPanel {
         CreateAccoutForEmp = new javax.swing.JButton();
         deleteBtn = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(153, 153, 153));
+
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},

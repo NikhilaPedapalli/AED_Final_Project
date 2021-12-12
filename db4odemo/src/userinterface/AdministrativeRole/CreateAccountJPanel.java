@@ -145,6 +145,8 @@ public class CreateAccountJPanel extends javax.swing.JPanel {
         OrganizationJComboBox = new javax.swing.JComboBox();
         EmployeeNameJComboBox = new javax.swing.JComboBox();
 
+        setBackground(new java.awt.Color(153, 153, 153));
+
         jLabel3.setText("Employee name");
 
         backjButton1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -214,9 +216,8 @@ public class CreateAccountJPanel extends javax.swing.JPanel {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(OrganizationJComboBox, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(RoleJComboBox, 0, 254, Short.MAX_VALUE)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(passwordJTextField, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 242, Short.MAX_VALUE)
-                                        .addComponent(nameJTextField, javax.swing.GroupLayout.Alignment.LEADING))
+                                    .addComponent(passwordJTextField, javax.swing.GroupLayout.DEFAULT_SIZE, 254, Short.MAX_VALUE)
+                                    .addComponent(nameJTextField)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(6, 6, 6)
                                         .addComponent(createUserJButton))))))
