@@ -5,17 +5,30 @@
  */
 package userinterface.ShelterEmployee;
 
+import Business.EcoSystem;
+import Business.Enterprise.Enterprise;
+import Business.UserAccount.UserAccount;
+import javax.swing.JPanel;
+
 /**
  *
- * @author srihithakilari
+ * @author 25836
  */
 public class ShelterEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form ShelterEmployeeWorkAreaJPanel
      */
-    public ShelterEmployeeWorkAreaJPanel() {
-        initComponents();
+    private JPanel userProcessContainer;
+    private EcoSystem business;
+    private UserAccount userAccount;
+    
+    public ShelterEmployeeWorkAreaJPanel(JPanel userProcessContainer, UserAccount account, EcoSystem business) {
+       initComponents();
+       this.userProcessContainer = userProcessContainer;
+       this.userAccount = account;
+       this.business = business;
+
     }
 
     /**
@@ -27,19 +40,30 @@ public class ShelterEmployeeWorkAreaJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+
+        jLabel1.setText("在这里为shelter 的员工添加功能");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(137, 137, 137)
+                .addComponent(jLabel1)
+                .addContainerGap(294, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(121, 121, 121)
+                .addComponent(jLabel1)
+                .addContainerGap(161, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
