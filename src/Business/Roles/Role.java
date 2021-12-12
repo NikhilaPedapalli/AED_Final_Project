@@ -10,7 +10,6 @@ import Business.Organization.Organization;
 import Business.Role.Role.RoleType;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
-
 /**
  *
  * @author pinky

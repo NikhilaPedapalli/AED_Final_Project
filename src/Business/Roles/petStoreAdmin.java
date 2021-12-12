@@ -1,28 +1,13 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Business.Role;
-
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
-import javax.swing.JPanel;
-import userinterface.AdministrativeRole.AdminWorkAreaJPanel;
-import userinterface.AdministrativeRole.PetStoreManageOrganizationPanel;
+package Business.Roles;
 
 /**
  *
- * @author Nikhila
+ * @author pinky
  */
-public class petStoreAdmin extends Role{
-
-  @Override
-    public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business) {
-         return new AdminWorkAreaJPanel(userProcessContainer, enterprise,business);
-    }
-
-    
+public class petStoreAdmin {
     
 }
