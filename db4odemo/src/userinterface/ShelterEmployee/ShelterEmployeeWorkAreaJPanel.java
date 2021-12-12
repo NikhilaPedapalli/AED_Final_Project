@@ -42,27 +42,23 @@ public class ShelterEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
         jLabel1 = new javax.swing.JLabel();
 
-        jLabel1.setText("shelter ");
+        jLabel1.setText("在这里为shelter 的员工添加功能");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(261, 261, 261)
+                .addGap(137, 137, 137)
                 .addComponent(jLabel1)
-<<<<<<< HEAD
-                .addContainerGap(437, Short.MAX_VALUE))
-=======
-                .addContainerGap(313, Short.MAX_VALUE))
->>>>>>> 8b06fe9d39f048ba217c160c0f88579840478c80
+                .addContainerGap(294, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(117, 117, 117)
+                .addGap(121, 121, 121)
                 .addComponent(jLabel1)
-                .addContainerGap(165, Short.MAX_VALUE))
+                .addContainerGap(161, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

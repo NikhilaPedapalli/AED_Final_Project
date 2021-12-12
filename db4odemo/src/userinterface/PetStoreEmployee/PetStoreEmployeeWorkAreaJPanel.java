@@ -40,20 +40,16 @@ public class PetStoreEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
         jLabel1 = new javax.swing.JLabel();
 
-        jLabel1.setText("pet store ");
+        jLabel1.setText("在这里为pet store 的员工添加功能");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(252, 252, 252)
+                .addGap(153, 153, 153)
                 .addComponent(jLabel1)
-<<<<<<< HEAD
-                .addContainerGap(366, Short.MAX_VALUE))
-=======
-                .addContainerGap(267, Short.MAX_VALUE))
->>>>>>> 8b06fe9d39f048ba217c160c0f88579840478c80
+                .addContainerGap(223, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
