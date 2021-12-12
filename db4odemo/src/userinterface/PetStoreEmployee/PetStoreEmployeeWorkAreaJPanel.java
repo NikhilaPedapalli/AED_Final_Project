@@ -47,9 +47,13 @@ public class PetStoreEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(153, 153, 153)
+                .addGap(252, 252, 252)
                 .addComponent(jLabel1)
+<<<<<<< HEAD
                 .addContainerGap(366, Short.MAX_VALUE))
+=======
+                .addContainerGap(267, Short.MAX_VALUE))
+>>>>>>> 8b06fe9d39f048ba217c160c0f88579840478c80
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

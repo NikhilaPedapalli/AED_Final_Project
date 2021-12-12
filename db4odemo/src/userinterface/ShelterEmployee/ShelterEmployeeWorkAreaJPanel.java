@@ -49,16 +49,20 @@ public class ShelterEmployeeWorkAreaJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(137, 137, 137)
+                .addGap(261, 261, 261)
                 .addComponent(jLabel1)
+<<<<<<< HEAD
                 .addContainerGap(437, Short.MAX_VALUE))
+=======
+                .addContainerGap(313, Short.MAX_VALUE))
+>>>>>>> 8b06fe9d39f048ba217c160c0f88579840478c80
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(121, 121, 121)
+                .addGap(117, 117, 117)
                 .addComponent(jLabel1)
-                .addContainerGap(161, Short.MAX_VALUE))
+                .addContainerGap(165, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
