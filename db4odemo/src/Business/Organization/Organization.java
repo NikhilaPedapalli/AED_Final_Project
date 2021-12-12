@@ -18,15 +18,15 @@ public abstract class Organization {
 
     private String name;
     private WorkQueue workQueue;
-    private EmployeeDirectory employeeDirectory;
-    private UserAccountDirectory userAccountDirectory;
-    private int organizationID;
+    private final EmployeeDirectory employeeDirectory;
+    private final UserAccountDirectory userAccountDirectory;
+    private final int organizationID;
     private static int counter=0;
     
     public enum Type{
         ShelterAdmin("ShelterAdmin Organization"),PetHospitalAdmin("PetHospitalAdmin Organization"),PetStoreAdmin("PetStoreAdmin Organization")
-        , PetHospital("PetHospital Organization"), PetStore("PetStore Organization"),Shelter("Shelter Organization");
-        private String value;
+        , PetHospital("PetHospital Organization"), PetStore("PetStore Organization"),Shelter("Shelter Organization"), Customer("CustomerOrganization");
+        private final String value;
         private Type(String value) {
             this.value = value;
         }
@@ -74,6 +74,10 @@ public abstract class Organization {
         this.workQueue = workQueue;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return name;

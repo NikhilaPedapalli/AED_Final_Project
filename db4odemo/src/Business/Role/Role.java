@@ -9,6 +9,7 @@ import Business.Enterprise.Enterprise;
 import Business.Organization.Organization;
 import Business.Role.Role.RoleType;
 import Business.UserAccount.UserAccount;
+import java.awt.Component;
 import javax.swing.JPanel;
 
 /**
@@ -16,6 +17,10 @@ import javax.swing.JPanel;
  * @author raunak
  */
 public abstract class Role {
+
+    public Component createWorkArea(JPanel container, UserAccount userAccount, Organization inOrganization, Enterprise inEnterprise, EcoSystem system) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public enum RoleType{
         PetStoreEmployee("PetStoreEmployee"),
@@ -23,9 +28,11 @@ public abstract class Role {
         ShelterEmployee("Lab ShelterEmployee"),
         PetStoreAdmin("PetStoreAdmin"),
         PetHospitalAdmin("PetHospitalAdmin"),
-        ShelterAdmin("ShelterAdmin");
+        ShelterAdmin("ShelterAdmin"),
+        Customer("NewCustomer");
+    
         
-        private String value;
+        private final String value;
         private RoleType(String value){
             this.value = value;
         }
@@ -38,7 +45,13 @@ public abstract class Role {
         public String toString() {
             return value;
         }
-    }
+
+        public static abstract class Customer {
+
+            public Customer() {
+            }
+
+           
     
     public abstract JPanel createWorkArea(JPanel userProcessContainer, 
             UserAccount account, 
@@ -49,7 +62,6 @@ public abstract class Role {
     @Override
     public String toString() {
         return this.getClass().getName();
-    }
+  
+    }}}}
     
-    
-}
