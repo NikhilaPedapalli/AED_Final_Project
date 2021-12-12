@@ -4,10 +4,35 @@
  */
 package Business.Organization;
 
+import Business.Role.AdminRole;
+import Business.Role.Role;
+import Business.Role.petHospitalAdmin;
+import Business.Role.petHospitalEmployee;
+import Business.Role.petStoreAdmin;
+import Business.Role.shelterAdmin;
+import java.util.ArrayList;
+
 /**
  *
  * @author pinky
  */
 public class PetHospitalAdminOrganization {
+    
+    public PetHospitalAdminOrganization() {
+        super(Organization.Type.PetHospitalAdmin.getValue());
+    }
+    
+    @Override
+    public ArrayList<Role> getSupportedRole() {
+        ArrayList<Role> roles = new ArrayList();
+        for (Role.RoleType type : Role.RoleType.values()){
+            if (type.getValue().equals(Role.RoleType.PetHospitalAdmin.getValue()))
+                roles.add(new petHospitalAdmin());
+        }
+     return roles;
+    }
+     
+}
+
     
 }
