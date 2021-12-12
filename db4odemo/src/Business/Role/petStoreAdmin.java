@@ -10,7 +10,6 @@ import Business.Organization.Organization;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
 import userinterface.AdministrativeRole.AdminWorkAreaJPanel;
-import userinterface.AdministrativeRole.PetStoreManageOrganizationPanel;
 
 /**
  *
@@ -18,7 +17,6 @@ import userinterface.AdministrativeRole.PetStoreManageOrganizationPanel;
  */
 public class petStoreAdmin extends Role{
 
-  @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business) {
          return new AdminWorkAreaJPanel(userProcessContainer, enterprise,business);
     }

@@ -17,7 +17,6 @@ import userinterface.PetStoreEmployee.PetStoreEmployeeWorkAreaJPanel;
  */
 public class petStoreEmployee extends Role{
 
-  @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business) {
         return new PetStoreEmployeeWorkAreaJPanel(userProcessContainer, account, business);
     }

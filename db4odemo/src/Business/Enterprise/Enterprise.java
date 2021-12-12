@@ -5,6 +5,7 @@
  */
 package Business.Enterprise;
 
+import Business.Organization.CustomerOrganizationDirectory;
 import Business.Organization.Organization;
 import Business.Organization.OrganizationDirectory;
 import Business.Organization.PetHospitalOrganizationDirectory;
@@ -35,6 +36,12 @@ public abstract class Enterprise extends Organization{
         return ShelterOrganizationDirectory;
         
     }
+    public CustomerOrganizationDirectory CustomerOrganizationDirectory() {
+        CustomerOrganizationDirectory CustomerOrganizationDirectory = null;
+        
+        return CustomerOrganizationDirectory;
+        
+    }
     
     public OrganizationDirectory getOrganizationDirectory() {
         
@@ -45,7 +52,11 @@ public abstract class Enterprise extends Organization{
     public enum EnterpriseType{
         Hospital("Hospital"),
         PetStore("PetStore"),
-        Shelter("Shelter");
+        Shelter("Shelter"),
+        Customer("Customer");
+        
+        
+        
         
         private String value;
         
@@ -76,5 +87,7 @@ public abstract class Enterprise extends Organization{
         petHospitalOrganizationDirectory = new PetHospitalOrganizationDirectory();
         petStoreOrganizationDirectory = new PetStoreOrganizationDirectory();
         ShelterOrganizationDirectory = new ShelterOrganizationDirectory();
+        CustomerOrganizationDirectory CustomerOrganizationDirectory = new CustomerOrganizationDirectory();
     }
+    
 }
