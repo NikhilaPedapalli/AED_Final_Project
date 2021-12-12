@@ -110,6 +110,11 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         jLabel1.setText("Network");
 
         networkJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        networkJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                networkJComboBoxActionPerformed(evt);
+            }
+        });
 
         jLabel2.setText("Name");
 
@@ -241,6 +246,10 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         } else
             JOptionPane.showMessageDialog(null, "Please select any row");
     }//GEN-LAST:event_deleteBtnActionPerformed
+
+    private void networkJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_networkJComboBoxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_networkJComboBoxActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton backJButton;

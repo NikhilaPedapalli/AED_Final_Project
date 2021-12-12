@@ -43,7 +43,7 @@ public class PetHospitalEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
         jLabel1 = new javax.swing.JLabel();
 
-        jLabel1.setText("在这里为pet hospital 的医生添加功能");
+        jLabel1.setText("pet hospital");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

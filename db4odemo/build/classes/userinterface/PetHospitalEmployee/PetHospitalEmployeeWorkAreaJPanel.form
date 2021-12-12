@@ -36,7 +36,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x5728;&#x8fd9;&#x91cc;&#x4e3a;pet hospital &#x7684;&#x533b;&#x751f;&#x6dfb;&#x52a0;&#x529f;&#x80fd;"/>
+        <Property name="text" type="java.lang.String" value="pet hospital"/>
       </Properties>
     </Component>
   </SubComponents>
