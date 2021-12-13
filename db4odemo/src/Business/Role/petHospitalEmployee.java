@@ -10,7 +10,7 @@ import Business.Organization.Organization;
 import Business.UserAccount.UserAccount;
 
 import javax.swing.JPanel;
-import userinterface.PetHospitalEmployee.PetHospitalEmployeeWorkAreaJpanel;
+import userinterface.PetHospitalEmployee.PetHospitalEmployeeWorkAreaJPanel;
 
 /**
  *
@@ -19,7 +19,7 @@ import userinterface.PetHospitalEmployee.PetHospitalEmployeeWorkAreaJpanel;
 public class petHospitalEmployee extends Role{
     
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business) {
-        return new PetHospitalEmployeeWorkAreaJpanel(userProcessContainer, account, business);
+        return new PetHospitalEmployeeWorkAreaJPanel(userProcessContainer, account, business);
     }
 
     
