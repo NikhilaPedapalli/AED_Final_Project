@@ -116,6 +116,11 @@ public class PetHospitalManageOrganizationPanel extends javax.swing.JPanel {
         });
 
         organizationJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        organizationJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                organizationJComboBoxActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("Organization Type ");
 
@@ -221,6 +226,10 @@ public class PetHospitalManageOrganizationPanel extends javax.swing.JPanel {
         } else
             JOptionPane.showMessageDialog(null, "Please select any row");
     }//GEN-LAST:event_deleteBtnActionPerformed
+
+    private void organizationJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_organizationJComboBoxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_organizationJComboBoxActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
