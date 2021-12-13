@@ -6,9 +6,6 @@
 package userinterface.PetHospitalEmployee;
 
 import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Organization.Organization;
-import Business.Organization.PetHospitalOrganization;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
 
@@ -18,9 +15,9 @@ import javax.swing.JPanel;
  */
 public class PetHospitalEmployeeWorkAreaJPanel extends javax.swing.JPanel {
 
-    private JPanel userProcessContainer;
-    private EcoSystem business;
-    private UserAccount userAccount;
+    private final JPanel userProcessContainer;
+    private final EcoSystem business;
+    private final UserAccount userAccount;
 
     
     public PetHospitalEmployeeWorkAreaJPanel(JPanel userProcessContainer, UserAccount account, EcoSystem business) {

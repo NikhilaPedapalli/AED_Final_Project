@@ -4,15 +4,12 @@
  */
 package Business.Organization;
 
-
 import Business.Role.Role;
+import Business.Role.Role.RoleType;
 import Business.Role.petStoreEmployee;
 import java.util.ArrayList;
 
-/**
- *
- * @author raunak
- */
+
 public class PetStoreOrganization extends Organization{
 
     public PetStoreOrganization() {
@@ -22,11 +19,10 @@ public class PetStoreOrganization extends Organization{
     @Override
     public ArrayList<Role> getSupportedRole() {
         ArrayList<Role> roles = new ArrayList();
-        for (Role.RoleType type : Role.RoleType.values()){
-            if (type.getValue().equals(Role.RoleType.PetStoreEmployee.getValue()))
+        for (RoleType type : Role.RoleType.values()){
+            if (type.getValue().equals(RoleType.Doctor.getValue()))
                 roles.add(new petStoreEmployee());
         }
      return roles;
     }
-     
 }
